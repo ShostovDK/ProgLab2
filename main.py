@@ -38,6 +38,7 @@ def evaluate_game():
 
 root = Tk()
 root.title("Оценка способности запоминать числа")
+root.geometry('400x400')
 
 start_button = Button(root, text="Старт", command=start_game)
 start_button.pack()
